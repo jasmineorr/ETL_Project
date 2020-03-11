@@ -29,12 +29,13 @@ Two datasets from Kaggle.com.
 
 Rough Breakdown of the tasks
 1. Define the Goal and questions for the Project
-2. Collect the data – Pull the csv files, online datasets.
-3. Filter the dataframe created to specific columns then rename is necessary.
-4. Clean the data by dropping and setting and setting the index
-5. Rename the column header, then set the index
-6. Create the database connection, the confirm the tables
-7. Load the data frame into database
-8. Create a table on pgAdmin and a primary key for both table
-9. Select the tables and join to populate the table on pgAdmin
+2. Collect the datasets and import the csv files into dataframes.
+3. Pull desired columns from the dataframe to create new dataframes.
+4. Rename columns.
+5. Clean the data by combining duplicate country names and data. Assign index to dataframes.
+6. Use groupby, sum & sortby to wrangle data and create two dataframes with the same format.
+7. Create the database connection and confirm the tables in the database
+8. Load the dataframes into database
+9. Create tables in pgAdmin and a primary key for both tables
+10. Select all information from tables to confirm data loaded and can begin queries when necessary
 
