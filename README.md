@@ -38,3 +38,12 @@ Rough Breakdown of the tasks
 8. Create a table on pgAdmin and a primary key for both table
 9. Select the tables and join to populate the table on pgAdmin
 
+Analysis on corona virus and Swine Virus ranking parameters Retrieving the dataset from the source kaggle.com i. Downloaded the latest(2019) coronavirus.csv from data.kaggle.com
+
+ii. Uploaded the dataset on to the resource folder "Resources/2019_nCoV_data.csv"
+
+iii. Read the file and create a dataframe to provide a structured data with rows and columns.
+
+iv. Use the .copy() to return a shallow copy of the list, hence droping some columns and picking the necessary columns.
+
+Cleaning of the dataset: The columns in the consolidated dataset that had similar country name was groupby to have it in a single column. Sort out the data set via ascending then re-index the sorted dataset. Use the .astype funtion to provide capability to convert suitable existing column to categorical type. Connect project work to pgAdmin with a line of code Grab data from ETL_project and upload to DB Use pandas to load json converted DataFrame into database Confirm data has been added by querying the table created on pgAdmin
